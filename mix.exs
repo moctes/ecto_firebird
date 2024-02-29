@@ -47,7 +47,8 @@ defmodule EctoFirebird.MixProject do
     [
       {:ecto_sql, "~> 3.11"},
       {:ecto, "~> 3.11"},
-      {:firebirdex, "~> 0.3.11"},
+      # {:firebirdex, "~> 0.3.11"},
+      {:firebirdex, github: "moctes/firebirdex", branch: "invalid_ts_as_nil"},
       {:jason, ">= 0.0.0"},
       {:temp, "~> 0.4", only: [:test]},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
